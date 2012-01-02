@@ -3,6 +3,11 @@
 # Author: jeroen
 ###############################################################################
 
+as.scalar <- function(obj){
+	return(structure(obj, class=c("scalar",class(obj))));
+}
+
+
 recordlist <- function(mydataframe){
 	L <- list();
 	if(nrow(mydataframe) == 0) return(L);

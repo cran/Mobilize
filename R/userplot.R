@@ -28,13 +28,14 @@ userplot.factor <- function(values, dates, ...){
 	dates <- as.Date(dates);
 	dates <- factor(unclass(dates), levels=seq(min(dates), max(dates), by=1));
 
+	library(reshape);
 	myData <- melt(table(dates, values));
 	names(myData) <- c("dates", "values", "count");
 	myData <- myData[myData$count > 0,];
 	
 	myplot <- qplot(x=dates,y=values, size=count*2, color=count, label=count, data=myData, ...) + geom_point() +
 	geom_text(aes(size=count), color="white") +
-	scale_size(range = c(5, 20), legend=FALSE);
+	scale_size(range = c(5, 20), guide="none");
 
 	return(myplot);
 }

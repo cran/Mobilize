@@ -42,6 +42,7 @@ distributionplot.character <- function(values, ...){
 	allwords <- tolower(strsplit(bigstring, " +")[[1]])
 	
 	#count, sort, head
+	library(reshape); #reshape::melt does not work.
 	cloud <- melt(head(as.list(sort(table(allwords)), decr=T), 100));
 	words <- cloud[[2]];
 	freq <- cloud[[1]];

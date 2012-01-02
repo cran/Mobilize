@@ -5,7 +5,7 @@
 #' @param ... arguments passed on to oh.campaign.read
 #' @export
 campaigndata <- function(...){
-	
+
 	#remainig arguments should contain read data.
 	campaigns <- oh.campaign.read(output="long", ...);
 	
@@ -14,11 +14,11 @@ campaigndata <- function(...){
 	}
 	
 	for(i in 1:length(campaigns$data)){
-		doc <- xmlTreeParse(campaigns$data[[i]]$xml, useInternalNodes=T);
+		doc <- XML::xmlTreeParse(campaigns$data[[i]]$xml, useInternalNodes=T);
 		campaigns$data[[i]]$xml <- NULL;
-		campaigns$data[[i]]$promptIDs <- unlist(xpathApply(doc, "//prompt/id",xmlValue));
-		campaigns$data[[i]]$promptTypes <- unlist(xpathApply(doc, "//prompt/promptType",xmlValue));
-		campaigns$data[[i]]$surveys <- unlist(xpathApply(doc, "//survey/id",xmlValue));
+		campaigns$data[[i]]$promptIDs <- unlist(XML::xpathApply(doc, "//prompt/id",XML::xmlValue));
+		campaigns$data[[i]]$promptTypes <- unlist(XML::xpathApply(doc, "//prompt/promptType",XML::xmlValue));
+		campaigns$data[[i]]$surveys <- unlist(XML::xpathApply(doc, "//survey/id",XML::xmlValue));
 		campaigns$data[[i]]$description <- NULL;
 	}
 	

@@ -33,6 +33,7 @@ responseplot.do <- function(dates, surveyvec, aggregate, ...){
 #' @param aggregate optional number of days to aggregate over. Defaults to something smart.
 #' @param ... stuff to pass on to oh.survey_response.read
 #' @return a responseplot
+#' @import ggplot2
 #' @export
 responseplot <- function(campaign_urn, aggregate, ...){
 
