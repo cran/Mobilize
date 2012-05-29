@@ -1,7 +1,7 @@
-b857855136b66c1b4e9d425d52d0ef22 *DESCRIPTION
+e41b989fdb7b713d1be02657c0a78dc2 *DESCRIPTION
 2cb90560450d86c83a98c7ef8672ef1b *NAMESPACE
 b1d0f26f20cc6684a9bfc8804dc01ad2 *R/bin.by.date.R
-ca7a96e04c55a68f3674cf320d321ad1 *R/biplot.R
+692056b8c01185cfe79aa9a670ee476b *R/biplot.R
 4c8f7e2d3ade6e747e46b68224c6745e *R/campaigndata.R
 bc7ad52ac7a6a01e066529d726e969f9 *R/distributionplot.R
 7926d8f0c786f13550f8fedfdb5be534 *R/getpicture.R
@@ -10,12 +10,12 @@ bbec186a6df21e66f24a308dc76b36d2 *R/gmapdata.R
 f75f1b32624a073b7e00e0c9e4558141 *R/keepalive.R
 e0222dcc04adb488da134fd76ac10193 *R/mapmobility.R
 e5e26e7ebb5c23d5d569ebdefc6b0c64 *R/responseplot.R
-15de062a4247d6ef5026743832fc3a45 *R/scatterplot.R
+ebdefea0151a442fe61e327d97208459 *R/scatterplot.R
 4c616e27570a8aac0b9973c8a87f7985 *R/sharedplot.R
 53c37c4047391c1f65a90f32f781ecb1 *R/sharedtimeplot.R
 74d768f5264127ea9283a29219d6a159 *R/test.mobilze.R
-1d016312aa482e919322d0617d86798e *R/timeplot.R
-18d53df2e70ee738432dde81c209030d *R/userplot.R
+11448521bff930f2ef52f15f853480e6 *R/timeplot.R
+9370a2cbfc4722d3012bd8ba8eacb03d *R/userplot.R
 7365cf657585a8bbb513a0bd0ee7acf1 *man/biplot.Rd
 a595ba9e929b37da81cbf7ea372c99f6 *man/campaigndata.Rd
 0e4c0d5276ee325904692e2aea8569ce *man/distributionplot.Rd
