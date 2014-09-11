@@ -1,4 +1,4 @@
-448427d772c63dda474e2e207ea845f7 *DESCRIPTION
+d3e68fd184f9ee8c1e3a261ab4269dfb *DESCRIPTION
 2bc4eac33baf84674ee07a35545ee1cb *NAMESPACE
 7ec3f266758a71629a1d36ea88d21363 *R/bin.by.date.R
 de479041c6843a710a897b47395e26d8 *R/biplot.R
@@ -9,7 +9,7 @@ ca7e4a2d8f93d9bfbd7bdc9992b8e296 *R/geturl.R
 3eb0de94d833cc1f0fc809be8b90811d *R/gmapdata.R
 e935bf334dd814a649a2aa7b8590c0d9 *R/ignore.R
 f75f1b32624a073b7e00e0c9e4558141 *R/keepalive.R
-e0222dcc04adb488da134fd76ac10193 *R/mapmobility.R
+567228669265d153617c20a3f4a3bdd2 *R/mapmobility.R
 a83a4664f71ad47819dc0e5bdd2ab6fa *R/responseplot.R
 bbe2b0a983c9fe69b0a41095c435523d *R/scatterplot.R
 4c616e27570a8aac0b9973c8a87f7985 *R/sharedplot.R
